@@ -1,5 +1,5 @@
 //
-//  VkSdkClientProtocol.swift
+//  FriendsViewOutput.swift
 //  VkontakteTestApplication
 //
 //  Created by John Dowland on 28.05.2018.
@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol VkSdkClientProtocol {
-	func wakeUpSession(completionHandler: @escaping (Bool) -> Void) 
-	func authorize()
+protocol FriendsViewOutput {
+	
 }

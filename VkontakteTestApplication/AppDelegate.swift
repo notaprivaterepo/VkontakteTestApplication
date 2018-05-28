@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		
-		VKSdk.initialize(withAppId: "vk6491301")
+		VKSdk.initialize(withAppId: "6491301")
 		
 		return true
 	}

@@ -16,7 +16,13 @@ class LoginInteractor {
 // MARK: - LoginInteractorInput
 extension LoginInteractor: LoginInteractorInput {
 	func login() {
-		authorizationService.login()
+		authorizationService.login { (isSuccess, error) in
+			if isSuccess {
+				print("Authorized")
+			} else if let error = error {
+				print(error)
+			}
+		}
 	}
 	
 }

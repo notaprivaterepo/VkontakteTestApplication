@@ -23,6 +23,9 @@ class LoginConfigurator {
 		
 		// MARK: - Interactor configuration
 		interactor.output = presenter
-		interactor.authorizationService = AuthorizationService()
+		let authorizationService = AuthorizationService()
+		authorizationService.vkSdkClient = VkSdkClient()
+		interactor.authorizationService = authorizationService
+		
 	}
 }

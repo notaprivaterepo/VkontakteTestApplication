@@ -10,9 +10,17 @@ import Foundation
 import VK_ios_sdk
 
 class VkSdkClient: VkSdkClientProtocol {
-
-	func login() {
-		VKSdk.authorize(["friends"])
+	
+	private let permissions = ["friends"]
+	
+	func wakeUpSession(completionHandler: @escaping (Bool) -> Void) {
+		VKSdk.wakeUpSession(permissions) { (state, _) in
+			completionHandler(state == VKAuthorizationState.authorized)
+		}
+	}
+	
+	func authorize() {
+		VKSdk.authorize(permissions)
 	}
 	
 	func getFriendsList() {

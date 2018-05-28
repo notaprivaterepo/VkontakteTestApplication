@@ -39,6 +39,17 @@
 		C3341D7720BA02A700D3ACA3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3341D7620BA02A700D3ACA3 /* Login.storyboard */; };
 		C34B715E20BC7AC0001D6D8D /* VkSdkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */; };
 		C34B716020BC7AD6001D6D8D /* VkSdkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */; };
+		C34B716520BC9BD9001D6D8D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716420BC9BD9001D6D8D /* FriendsViewController.swift */; };
+		C34B716720BC9C2D001D6D8D /* FriendsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716620BC9C2D001D6D8D /* FriendsViewOutput.swift */; };
+		C34B716920BC9C5E001D6D8D /* FriendsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716820BC9C5E001D6D8D /* FriendsViewInput.swift */; };
+		C34B716C20BC9C92001D6D8D /* FriendsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716B20BC9C92001D6D8D /* FriendsPresenter.swift */; };
+		C34B716F20BC9CCE001D6D8D /* FriendsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716E20BC9CCE001D6D8D /* FriendsInteractor.swift */; };
+		C34B717120BC9D19001D6D8D /* FriendsInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717020BC9D19001D6D8D /* FriendsInteractorInput.swift */; };
+		C34B717320BC9D9A001D6D8D /* FriendsInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717220BC9D9A001D6D8D /* FriendsInteractorOutput.swift */; };
+		C34B717620BC9DDF001D6D8D /* FriendsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717520BC9DDF001D6D8D /* FriendsRouter.swift */; };
+		C34B717820BC9DE8001D6D8D /* FriendsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717720BC9DE8001D6D8D /* FriendsRouterInput.swift */; };
+		C34B717C20BC9E6A001D6D8D /* FriendsModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717B20BC9E6A001D6D8D /* FriendsModuleInitializer.swift */; };
+		C34B717E20BC9E76001D6D8D /* FriendsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +88,17 @@
 		C3341D7620BA02A700D3ACA3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSdkClientProtocol.swift; sourceTree = "<group>"; };
 		C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSdkClient.swift; sourceTree = "<group>"; };
+		C34B716420BC9BD9001D6D8D /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		C34B716620BC9C2D001D6D8D /* FriendsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewOutput.swift; sourceTree = "<group>"; };
+		C34B716820BC9C5E001D6D8D /* FriendsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewInput.swift; sourceTree = "<group>"; };
+		C34B716B20BC9C92001D6D8D /* FriendsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPresenter.swift; sourceTree = "<group>"; };
+		C34B716E20BC9CCE001D6D8D /* FriendsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInteractor.swift; sourceTree = "<group>"; };
+		C34B717020BC9D19001D6D8D /* FriendsInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInteractorInput.swift; sourceTree = "<group>"; };
+		C34B717220BC9D9A001D6D8D /* FriendsInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsInteractorOutput.swift; sourceTree = "<group>"; };
+		C34B717520BC9DDF001D6D8D /* FriendsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsRouter.swift; sourceTree = "<group>"; };
+		C34B717720BC9DE8001D6D8D /* FriendsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsRouterInput.swift; sourceTree = "<group>"; };
+		C34B717B20BC9E6A001D6D8D /* FriendsModuleInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleInitializer.swift; sourceTree = "<group>"; };
+		C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleConfigurator.swift; sourceTree = "<group>"; };
 		E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkontakteTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				C3341D3420B9617500D3ACA3 /* Login */,
-				C3341D3520B9617E00D3ACA3 /* FriendsList */,
+				C3341D3520B9617E00D3ACA3 /* Friends */,
 				C3341D3620B961A400D3ACA3 /* Photos */,
 			);
 			path = PresentationModules;
@@ -178,11 +200,17 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
-		C3341D3520B9617E00D3ACA3 /* FriendsList */ = {
+		C3341D3520B9617E00D3ACA3 /* Friends */ = {
 			isa = PBXGroup;
 			children = (
+				C34B716320BC9BAA001D6D8D /* View */,
+				C34B716A20BC9C74001D6D8D /* Presenter */,
+				C34B716D20BC9C9C001D6D8D /* Interactor */,
+				C34B717420BC9DB1001D6D8D /* Router */,
+				C34B717920BC9E28001D6D8D /* ModuleInitializer */,
+				C34B717A20BC9E37001D6D8D /* ModuleConfigurator */,
 			);
-			path = FriendsList;
+			path = Friends;
 			sourceTree = "<group>";
 		};
 		C3341D3620B961A400D3ACA3 /* Photos */ = {
@@ -297,6 +325,59 @@
 			isa = PBXGroup;
 			children = (
 				C3341D6E20B9EEC600D3ACA3 /* LoginConfigurator.swift */,
+			);
+			path = ModuleConfigurator;
+			sourceTree = "<group>";
+		};
+		C34B716320BC9BAA001D6D8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C34B716420BC9BD9001D6D8D /* FriendsViewController.swift */,
+				C34B716620BC9C2D001D6D8D /* FriendsViewOutput.swift */,
+				C34B716820BC9C5E001D6D8D /* FriendsViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C34B716A20BC9C74001D6D8D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C34B716B20BC9C92001D6D8D /* FriendsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C34B716D20BC9C9C001D6D8D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C34B716E20BC9CCE001D6D8D /* FriendsInteractor.swift */,
+				C34B717020BC9D19001D6D8D /* FriendsInteractorInput.swift */,
+				C34B717220BC9D9A001D6D8D /* FriendsInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C34B717420BC9DB1001D6D8D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C34B717520BC9DDF001D6D8D /* FriendsRouter.swift */,
+				C34B717720BC9DE8001D6D8D /* FriendsRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C34B717920BC9E28001D6D8D /* ModuleInitializer */ = {
+			isa = PBXGroup;
+			children = (
+				C34B717B20BC9E6A001D6D8D /* FriendsModuleInitializer.swift */,
+			);
+			path = ModuleInitializer;
+			sourceTree = "<group>";
+		};
+		C34B717A20BC9E37001D6D8D /* ModuleConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */,
 			);
 			path = ModuleConfigurator;
 			sourceTree = "<group>";
@@ -423,16 +504,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34B717120BC9D19001D6D8D /* FriendsInteractorInput.swift in Sources */,
+				C34B716720BC9C2D001D6D8D /* FriendsViewOutput.swift in Sources */,
 				C3341D3C20B9662400D3ACA3 /* LoginViewOutput.swift in Sources */,
 				C3341D3E20B9662E00D3ACA3 /* LoginViewInput.swift in Sources */,
 				C3341D5B20B990C800D3ACA3 /* ModuleInput.swift in Sources */,
 				C3341D4E20B97D6500D3ACA3 /* LoginRouter.swift in Sources */,
+				C34B716520BC9BD9001D6D8D /* FriendsViewController.swift in Sources */,
 				C3341D6720B996DF00D3ACA3 /* TransitionStyle.swift in Sources */,
+				C34B716920BC9C5E001D6D8D /* FriendsViewInput.swift in Sources */,
 				C3341D6520B9944C00D3ACA3 /* TransitionPromise.swift in Sources */,
 				C3341D6F20B9EEC600D3ACA3 /* LoginConfigurator.swift in Sources */,
 				C3341D3820B9661000D3ACA3 /* LoginViewController.swift in Sources */,
 				C3341D3A20B9661B00D3ACA3 /* LoginPresenter.swift in Sources */,
 				C3341D2220B95ED700D3ACA3 /* ViewController.swift in Sources */,
+				C34B716C20BC9C92001D6D8D /* FriendsPresenter.swift in Sources */,
 				C3341D4120B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift in Sources */,
 				C3341D6120B9935400D3ACA3 /* Module.swift in Sources */,
 				C3341D5920B98FE700D3ACA3 /* TransitionHandler.swift in Sources */,
@@ -440,16 +526,22 @@
 				C34B715E20BC7AC0001D6D8D /* VkSdkClientProtocol.swift in Sources */,
 				C3341D5D20B9918400D3ACA3 /* ModuleOutput.swift in Sources */,
 				C3341D2020B95ED700D3ACA3 /* AppDelegate.swift in Sources */,
+				C34B717E20BC9E76001D6D8D /* FriendsModuleConfigurator.swift in Sources */,
 				C3341D4920B97D2900D3ACA3 /* LoginInteractorInput.swift in Sources */,
+				C34B717820BC9DE8001D6D8D /* FriendsRouterInput.swift in Sources */,
+				C34B717620BC9DDF001D6D8D /* FriendsRouter.swift in Sources */,
 				C3341D5620B98FB500D3ACA3 /* UIViewController+TransitionHandler.swift in Sources */,
 				C3341D4320B96C4400D3ACA3 /* AuthorizationService.swift in Sources */,
+				C34B716F20BC9CCE001D6D8D /* FriendsInteractor.swift in Sources */,
 				C3341D7220B9F68D00D3ACA3 /* LoginInteractorOutput.swift in Sources */,
+				C34B717C20BC9E6A001D6D8D /* FriendsModuleInitializer.swift in Sources */,
 				C3341D4C20B97D5C00D3ACA3 /* LoginRouterInput.swift in Sources */,
 				C3341D6920B9975C00D3ACA3 /* TransitionNavigationStyle.swift in Sources */,
 				C3341D6C20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift in Sources */,
 				C3341D4620B97B9100D3ACA3 /* LoginInteractor.swift in Sources */,
 				C3341D7520B9FD5800D3ACA3 /* LoginModuleInitializer.swift in Sources */,
 				C34B716020BC7AD6001D6D8D /* VkSdkClient.swift in Sources */,
+				C34B717320BC9D9A001D6D8D /* FriendsInteractorOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

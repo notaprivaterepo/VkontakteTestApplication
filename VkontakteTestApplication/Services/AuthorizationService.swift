@@ -12,18 +12,33 @@ import VK_ios_sdk
 class AuthorizationService: NSObject {
 	var vkSdkClient: VkSdkClientProtocol!
 	
+	private var authorizationFinishedHandler: ((Bool, Error?) -> Void)?
 }
 
 extension AuthorizationService: AuthorizationServiceProtocol {
-	func login() {
-		vkSdkClient.login()
+	
+	func login(authorizationFinishedHandler: @escaping (Bool, Error?) -> Void) {
+		
+		self.authorizationFinishedHandler = authorizationFinishedHandler
+		
+		vkSdkClient.wakeUpSession { isSuccess in
+			if isSuccess {
+				authorizationFinishedHandler(true, nil)
+			} else {
+				// TODO: weak self?
+				self.vkSdkClient.authorize()
+			}
+		}
 	}
 }
 
 extension AuthorizationService: VKSdkDelegate {
-
 	func vkSdkAccessAuthorizationFinished(with result: VKAuthorizationResult!) {
-		//
+		if result.token != nil {
+			authorizationFinishedHandler?(true, nil)
+		} else if let error = result.error {
+			authorizationFinishedHandler?(false, error)
+		}
 	}
 	
 	func vkSdkUserAuthorizationFailed() {
@@ -32,9 +47,5 @@ extension AuthorizationService: VKSdkDelegate {
 	
 	func vkSdkTokenHasExpired(_ expiredToken: VKAccessToken!) {
 		//
-	}
-	
-	func vkSdkAccessTokenUpdated(_ newToken: VKAccessToken!, oldToken: VKAccessToken!) {
-		let token = newToken
 	}
 }

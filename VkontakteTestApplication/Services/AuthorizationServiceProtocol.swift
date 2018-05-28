@@ -9,5 +9,5 @@
 import Foundation
 
 protocol AuthorizationServiceProtocol {
-	func login()
+	func login(authorizationFinishedHandler: @escaping (Bool, Error?) -> Void)
 }
