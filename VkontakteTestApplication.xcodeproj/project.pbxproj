@@ -7,14 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5FA5E83C365FD79AD04F2B /* Pods_VkontakteTestApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859BD3053713397C2DCC7C23 /* Pods_VkontakteTestApplication.framework */; };
 		C3341D2020B95ED700D3ACA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D1F20B95ED700D3ACA3 /* AppDelegate.swift */; };
 		C3341D2220B95ED700D3ACA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D2120B95ED700D3ACA3 /* ViewController.swift */; };
 		C3341D2520B95ED800D3ACA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3341D2320B95ED800D3ACA3 /* Main.storyboard */; };
 		C3341D2720B95EE100D3ACA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3341D2620B95EE100D3ACA3 /* Assets.xcassets */; };
 		C3341D2A20B95EE100D3ACA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3341D2820B95EE100D3ACA3 /* LaunchScreen.storyboard */; };
+		C3341D3820B9661000D3ACA3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D3720B9661000D3ACA3 /* LoginViewController.swift */; };
+		C3341D3A20B9661B00D3ACA3 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D3920B9661B00D3ACA3 /* LoginPresenter.swift */; };
+		C3341D3C20B9662400D3ACA3 /* LoginViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D3B20B9662400D3ACA3 /* LoginViewOutput.swift */; };
+		C3341D3E20B9662E00D3ACA3 /* LoginViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D3D20B9662E00D3ACA3 /* LoginViewInput.swift */; };
+		C3341D4120B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D4020B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift */; };
+		C3341D4320B96C4400D3ACA3 /* AuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D4220B96C4400D3ACA3 /* AuthorizationService.swift */; };
+		C3341D4620B97B9100D3ACA3 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D4520B97B9100D3ACA3 /* LoginInteractor.swift */; };
+		C3341D4920B97D2900D3ACA3 /* LoginInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D4820B97D2900D3ACA3 /* LoginInteractorInput.swift */; };
+		C3341D4C20B97D5C00D3ACA3 /* LoginRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D4B20B97D5C00D3ACA3 /* LoginRouterInput.swift */; };
+		C3341D4E20B97D6500D3ACA3 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D4D20B97D6500D3ACA3 /* LoginRouter.swift */; };
+		C3341D5620B98FB500D3ACA3 /* UIViewController+TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D5520B98FB500D3ACA3 /* UIViewController+TransitionHandler.swift */; };
+		C3341D5920B98FE700D3ACA3 /* TransitionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D5820B98FE700D3ACA3 /* TransitionHandler.swift */; };
+		C3341D5B20B990C800D3ACA3 /* ModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D5A20B990C800D3ACA3 /* ModuleInput.swift */; };
+		C3341D5D20B9918400D3ACA3 /* ModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D5C20B9918400D3ACA3 /* ModuleOutput.swift */; };
+		C3341D5F20B991D000D3ACA3 /* ViewOutputProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D5E20B991D000D3ACA3 /* ViewOutputProvider.swift */; };
+		C3341D6120B9935400D3ACA3 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D6020B9935400D3ACA3 /* Module.swift */; };
+		C3341D6520B9944C00D3ACA3 /* TransitionPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D6420B9944C00D3ACA3 /* TransitionPromise.swift */; };
+		C3341D6720B996DF00D3ACA3 /* TransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D6620B996DF00D3ACA3 /* TransitionStyle.swift */; };
+		C3341D6920B9975C00D3ACA3 /* TransitionNavigationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D6820B9975C00D3ACA3 /* TransitionNavigationStyle.swift */; };
+		C3341D6C20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D6B20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift */; };
+		C3341D6F20B9EEC600D3ACA3 /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D6E20B9EEC600D3ACA3 /* LoginConfigurator.swift */; };
+		C3341D7220B9F68D00D3ACA3 /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D7120B9F68D00D3ACA3 /* LoginInteractorOutput.swift */; };
+		C3341D7520B9FD5800D3ACA3 /* LoginModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D7420B9FD5800D3ACA3 /* LoginModuleInitializer.swift */; };
+		C3341D7720BA02A700D3ACA3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3341D7620BA02A700D3ACA3 /* Login.storyboard */; };
+		C34B715E20BC7AC0001D6D8D /* VkSdkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */; };
+		C34B716020BC7AD6001D6D8D /* VkSdkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14B0A0DC154ADB46EC63CD25 /* Pods-VkontakteTestApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkontakteTestApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		859BD3053713397C2DCC7C23 /* Pods_VkontakteTestApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VkontakteTestApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3341D1C20B95ED700D3ACA3 /* VkontakteTestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VkontakteTestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3341D1F20B95ED700D3ACA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3341D2120B95ED700D3ACA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +51,33 @@
 		C3341D2620B95EE100D3ACA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3341D2920B95EE100D3ACA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3341D2B20B95EE100D3ACA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3341D3720B9661000D3ACA3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C3341D3920B9661B00D3ACA3 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		C3341D3B20B9662400D3ACA3 /* LoginViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewOutput.swift; sourceTree = "<group>"; };
+		C3341D3D20B9662E00D3ACA3 /* LoginViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewInput.swift; sourceTree = "<group>"; };
+		C3341D4020B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationServiceProtocol.swift; sourceTree = "<group>"; };
+		C3341D4220B96C4400D3ACA3 /* AuthorizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationService.swift; sourceTree = "<group>"; };
+		C3341D4520B97B9100D3ACA3 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		C3341D4820B97D2900D3ACA3 /* LoginInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorInput.swift; sourceTree = "<group>"; };
+		C3341D4B20B97D5C00D3ACA3 /* LoginRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouterInput.swift; sourceTree = "<group>"; };
+		C3341D4D20B97D6500D3ACA3 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		C3341D5520B98FB500D3ACA3 /* UIViewController+TransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TransitionHandler.swift"; sourceTree = "<group>"; };
+		C3341D5820B98FE700D3ACA3 /* TransitionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionHandler.swift; sourceTree = "<group>"; };
+		C3341D5A20B990C800D3ACA3 /* ModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleInput.swift; sourceTree = "<group>"; };
+		C3341D5C20B9918400D3ACA3 /* ModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleOutput.swift; sourceTree = "<group>"; };
+		C3341D5E20B991D000D3ACA3 /* ViewOutputProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOutputProvider.swift; sourceTree = "<group>"; };
+		C3341D6020B9935400D3ACA3 /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		C3341D6420B9944C00D3ACA3 /* TransitionPromise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionPromise.swift; sourceTree = "<group>"; };
+		C3341D6620B996DF00D3ACA3 /* TransitionStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionStyle.swift; sourceTree = "<group>"; };
+		C3341D6820B9975C00D3ACA3 /* TransitionNavigationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionNavigationStyle.swift; sourceTree = "<group>"; };
+		C3341D6B20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Once.swift"; sourceTree = "<group>"; };
+		C3341D6E20B9EEC600D3ACA3 /* LoginConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginConfigurator.swift; sourceTree = "<group>"; };
+		C3341D7120B9F68D00D3ACA3 /* LoginInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorOutput.swift; sourceTree = "<group>"; };
+		C3341D7420B9FD5800D3ACA3 /* LoginModuleInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleInitializer.swift; sourceTree = "<group>"; };
+		C3341D7620BA02A700D3ACA3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSdkClientProtocol.swift; sourceTree = "<group>"; };
+		C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSdkClient.swift; sourceTree = "<group>"; };
+		E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkontakteTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +85,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5FA5E83C365FD79AD04F2B /* Pods_VkontakteTestApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		124EF59E96F8AB04631C0888 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				859BD3053713397C2DCC7C23 /* Pods_VkontakteTestApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3341D1320B95ED700D3ACA3 = {
 			isa = PBXGroup;
 			children = (
 				C3341D1E20B95ED700D3ACA3 /* VkontakteTestApplication */,
 				C3341D1D20B95ED700D3ACA3 /* Products */,
+				FDC0A6EBC359C45E81A3BD18 /* Pods */,
+				124EF59E96F8AB04631C0888 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +121,11 @@
 		C3341D1E20B95ED700D3ACA3 /* VkontakteTestApplication */ = {
 			isa = PBXGroup;
 			children = (
+				C3341D6A20B9AE5E00D3ACA3 /* Common */,
+				C3341D5420B98F9300D3ACA3 /* TransitionHandler */,
+				C3341D3320B9606500D3ACA3 /* Core */,
+				C3341D3220B9605700D3ACA3 /* Services */,
+				C3341D3120B9604E00D3ACA3 /* PresentationModules */,
 				C3341D1F20B95ED700D3ACA3 /* AppDelegate.swift */,
 				C3341D2120B95ED700D3ACA3 /* ViewController.swift */,
 				C3341D2320B95ED800D3ACA3 /* Main.storyboard */,
@@ -64,6 +136,180 @@
 			path = VkontakteTestApplication;
 			sourceTree = "<group>";
 		};
+		C3341D3120B9604E00D3ACA3 /* PresentationModules */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D3420B9617500D3ACA3 /* Login */,
+				C3341D3520B9617E00D3ACA3 /* FriendsList */,
+				C3341D3620B961A400D3ACA3 /* Photos */,
+			);
+			path = PresentationModules;
+			sourceTree = "<group>";
+		};
+		C3341D3220B9605700D3ACA3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D4020B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift */,
+				C3341D4220B96C4400D3ACA3 /* AuthorizationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C3341D3320B9606500D3ACA3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */,
+				C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C3341D3420B9617500D3ACA3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D3F20B9664000D3ACA3 /* View */,
+				C3341D4420B97A7500D3ACA3 /* Presenter */,
+				C3341D4720B97CCE00D3ACA3 /* Interactor */,
+				C3341D4A20B97D4300D3ACA3 /* Router */,
+				C3341D7020B9F47000D3ACA3 /* ModuleInitializer */,
+				C3341D7320B9FCBF00D3ACA3 /* ModuleConfigurator */,
+				C3341D7620BA02A700D3ACA3 /* Login.storyboard */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		C3341D3520B9617E00D3ACA3 /* FriendsList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FriendsList;
+			sourceTree = "<group>";
+		};
+		C3341D3620B961A400D3ACA3 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		C3341D3F20B9664000D3ACA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D3720B9661000D3ACA3 /* LoginViewController.swift */,
+				C3341D3B20B9662400D3ACA3 /* LoginViewOutput.swift */,
+				C3341D3D20B9662E00D3ACA3 /* LoginViewInput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C3341D4420B97A7500D3ACA3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D3920B9661B00D3ACA3 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C3341D4720B97CCE00D3ACA3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D4520B97B9100D3ACA3 /* LoginInteractor.swift */,
+				C3341D4820B97D2900D3ACA3 /* LoginInteractorInput.swift */,
+				C3341D7120B9F68D00D3ACA3 /* LoginInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C3341D4A20B97D4300D3ACA3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D4B20B97D5C00D3ACA3 /* LoginRouterInput.swift */,
+				C3341D4D20B97D6500D3ACA3 /* LoginRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C3341D5420B98F9300D3ACA3 /* TransitionHandler */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D5520B98FB500D3ACA3 /* UIViewController+TransitionHandler.swift */,
+				C3341D6220B9942D00D3ACA3 /* Helpers */,
+				C3341D5720B98FD900D3ACA3 /* Protocols */,
+			);
+			path = TransitionHandler;
+			sourceTree = "<group>";
+		};
+		C3341D5720B98FD900D3ACA3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D5820B98FE700D3ACA3 /* TransitionHandler.swift */,
+				C3341D5A20B990C800D3ACA3 /* ModuleInput.swift */,
+				C3341D5C20B9918400D3ACA3 /* ModuleOutput.swift */,
+				C3341D5E20B991D000D3ACA3 /* ViewOutputProvider.swift */,
+				C3341D6020B9935400D3ACA3 /* Module.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C3341D6220B9942D00D3ACA3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D6320B9943600D3ACA3 /* Promises */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C3341D6320B9943600D3ACA3 /* Promises */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D6420B9944C00D3ACA3 /* TransitionPromise.swift */,
+				C3341D6620B996DF00D3ACA3 /* TransitionStyle.swift */,
+				C3341D6820B9975C00D3ACA3 /* TransitionNavigationStyle.swift */,
+			);
+			path = Promises;
+			sourceTree = "<group>";
+		};
+		C3341D6A20B9AE5E00D3ACA3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D6D20B9AE8A00D3ACA3 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C3341D6D20B9AE8A00D3ACA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D6B20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C3341D7020B9F47000D3ACA3 /* ModuleInitializer */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D7420B9FD5800D3ACA3 /* LoginModuleInitializer.swift */,
+			);
+			path = ModuleInitializer;
+			sourceTree = "<group>";
+		};
+		C3341D7320B9FCBF00D3ACA3 /* ModuleConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				C3341D6E20B9EEC600D3ACA3 /* LoginConfigurator.swift */,
+			);
+			path = ModuleConfigurator;
+			sourceTree = "<group>";
+		};
+		FDC0A6EBC359C45E81A3BD18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14B0A0DC154ADB46EC63CD25 /* Pods-VkontakteTestApplication.debug.xcconfig */,
+				E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3341D2E20B95EE200D3ACA3 /* Build configuration list for PBXNativeTarget "VkontakteTestApplication" */;
 			buildPhases = (
+				DBFCDC5D7FA5E00DA2B38C4A /* [CP] Check Pods Manifest.lock */,
 				C3341D1820B95ED700D3ACA3 /* Sources */,
 				C3341D1920B95ED700D3ACA3 /* Frameworks */,
 				C3341D1A20B95ED700D3ACA3 /* Resources */,
+				07C48152F3FF740D2A0ED261 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3341D7720BA02A700D3ACA3 /* Login.storyboard in Resources */,
 				C3341D2A20B95EE100D3ACA3 /* LaunchScreen.storyboard in Resources */,
 				C3341D2720B95EE100D3ACA3 /* Assets.xcassets in Resources */,
 				C3341D2520B95ED800D3ACA3 /* Main.storyboard in Resources */,
@@ -130,13 +379,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07C48152F3FF740D2A0ED261 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBFCDC5D7FA5E00DA2B38C4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VkontakteTestApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3341D1820B95ED700D3ACA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3341D3C20B9662400D3ACA3 /* LoginViewOutput.swift in Sources */,
+				C3341D3E20B9662E00D3ACA3 /* LoginViewInput.swift in Sources */,
+				C3341D5B20B990C800D3ACA3 /* ModuleInput.swift in Sources */,
+				C3341D4E20B97D6500D3ACA3 /* LoginRouter.swift in Sources */,
+				C3341D6720B996DF00D3ACA3 /* TransitionStyle.swift in Sources */,
+				C3341D6520B9944C00D3ACA3 /* TransitionPromise.swift in Sources */,
+				C3341D6F20B9EEC600D3ACA3 /* LoginConfigurator.swift in Sources */,
+				C3341D3820B9661000D3ACA3 /* LoginViewController.swift in Sources */,
+				C3341D3A20B9661B00D3ACA3 /* LoginPresenter.swift in Sources */,
 				C3341D2220B95ED700D3ACA3 /* ViewController.swift in Sources */,
+				C3341D4120B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift in Sources */,
+				C3341D6120B9935400D3ACA3 /* Module.swift in Sources */,
+				C3341D5920B98FE700D3ACA3 /* TransitionHandler.swift in Sources */,
+				C3341D5F20B991D000D3ACA3 /* ViewOutputProvider.swift in Sources */,
+				C34B715E20BC7AC0001D6D8D /* VkSdkClientProtocol.swift in Sources */,
+				C3341D5D20B9918400D3ACA3 /* ModuleOutput.swift in Sources */,
 				C3341D2020B95ED700D3ACA3 /* AppDelegate.swift in Sources */,
+				C3341D4920B97D2900D3ACA3 /* LoginInteractorInput.swift in Sources */,
+				C3341D5620B98FB500D3ACA3 /* UIViewController+TransitionHandler.swift in Sources */,
+				C3341D4320B96C4400D3ACA3 /* AuthorizationService.swift in Sources */,
+				C3341D7220B9F68D00D3ACA3 /* LoginInteractorOutput.swift in Sources */,
+				C3341D4C20B97D5C00D3ACA3 /* LoginRouterInput.swift in Sources */,
+				C3341D6920B9975C00D3ACA3 /* TransitionNavigationStyle.swift in Sources */,
+				C3341D6C20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift in Sources */,
+				C3341D4620B97B9100D3ACA3 /* LoginInteractor.swift in Sources */,
+				C3341D7520B9FD5800D3ACA3 /* LoginModuleInitializer.swift in Sources */,
+				C34B716020BC7AD6001D6D8D /* VkSdkClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +591,13 @@
 		};
 		C3341D2F20B95EE200D3ACA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B0A0DC154ADB46EC63CD25 /* Pods-VkontakteTestApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AM78RE6F3D;
 				INFOPLIST_FILE = VkontakteTestApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,17 +605,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = empty.VkontakteTestApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C3341D3020B95EE200D3ACA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AM78RE6F3D;
 				INFOPLIST_FILE = VkontakteTestApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +625,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = empty.VkontakteTestApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

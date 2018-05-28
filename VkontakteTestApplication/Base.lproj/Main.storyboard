@@ -1,24 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="VkontakteTestApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Телефон или email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yka-91-n7Y">
+                                <rect key="frame" x="45.5" y="220" width="229" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="aHa-zX-044"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VK Test Application" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87p-aH-3So">
+                                <rect key="frame" x="21" y="131" width="278" height="36"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ACP-n9-dX0">
+                                <rect key="frame" x="45.5" y="276" width="229" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.50125858850000005" blue="0.83718670689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yka-91-n7Y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-44" id="0gi-oG-4Gd"/>
+                            <constraint firstItem="ACP-n9-dX0" firstAttribute="centerX" secondItem="yka-91-n7Y" secondAttribute="centerX" id="FXp-HT-7IM"/>
+                            <constraint firstItem="yka-91-n7Y" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1: 1.4" id="Iy0-Ct-uNG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="87p-aH-3So" secondAttribute="trailing" constant="21" id="OXL-Jp-FQg"/>
+                            <constraint firstItem="87p-aH-3So" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RpR-oz-sVy"/>
+                            <constraint firstItem="yka-91-n7Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YND-mv-6PC"/>
+                            <constraint firstItem="yka-91-n7Y" firstAttribute="top" secondItem="87p-aH-3So" secondAttribute="bottom" constant="53" id="hpb-0n-NX3"/>
+                            <constraint firstItem="ACP-n9-dX0" firstAttribute="top" secondItem="yka-91-n7Y" secondAttribute="bottom" constant="16" id="l8E-do-RBO"/>
+                            <constraint firstItem="ACP-n9-dX0" firstAttribute="width" secondItem="yka-91-n7Y" secondAttribute="width" id="o8l-SC-SfT"/>
+                            <constraint firstItem="87p-aH-3So" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="qwO-kO-53S"/>
+                            <constraint firstItem="ACP-n9-dX0" firstAttribute="height" secondItem="yka-91-n7Y" secondAttribute="height" id="yE6-f4-4UD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="loginTextField" destination="yka-91-n7Y" id="c3x-rW-EIS"/>
+                        <outlet property="passwordTextField" destination="ACP-n9-dX0" id="LsV-uo-ubc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="fXt-3j-BCc" customClass="LoginModuleInitializer" customModule="VkontakteTestApplication" customModuleProvider="target">
+                    <connections>
+                        <outlet property="loginViewController" destination="BYZ-38-t0r" id="Uzk-Sd-h3V"/>
+                    </connections>
+                </customObject>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>
