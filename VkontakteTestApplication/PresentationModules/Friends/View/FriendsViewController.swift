@@ -17,3 +17,10 @@ class FriendsViewController: UIViewController {
 extension FriendsViewController: FriendsViewInput {
 	
 }
+
+// MARK: - ViewOutputProvider
+extension FriendsViewController: ViewOutputProvider {
+	var viewOutput: ModuleInput? {
+		return output as? ModuleInput
+	}
+}

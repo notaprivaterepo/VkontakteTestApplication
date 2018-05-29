@@ -25,5 +25,11 @@ extension LoginPresenter: LoginViewOutput {
 
 // MARK: - LoginInteractorOutput
 extension LoginPresenter: LoginInteractorOutput {
+	func authorizationSuccessfullyCompleted() {
+		router.openFriends()
+	}
 	
+	func authorizationFailed(with error: Error) {
+		
+	}
 }

@@ -14,7 +14,7 @@ protocol ModuleInput {
 	
 	/// Set module output for the current module
 	///
-	/// - Parameter mosuleOutput: moduleOutput instance
+	/// - Parameter moduleOutput: moduleOutput instance
 	func setModuleOutput(_ moduleOutput: ModuleOutput)
 }
 

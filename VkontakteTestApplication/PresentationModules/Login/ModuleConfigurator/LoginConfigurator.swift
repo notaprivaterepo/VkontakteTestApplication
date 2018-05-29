@@ -19,7 +19,10 @@ class LoginConfigurator {
 		// MARK: - Presenter configuration
 		presenter.interactor = interactor
 		presenter.view = view
-		presenter.router = LoginRouter()
+		let router = LoginRouter()
+		router.transitionHandler = view as TransitionHandler
+		presenter.router = router
+		
 		
 		// MARK: - Interactor configuration
 		interactor.output = presenter

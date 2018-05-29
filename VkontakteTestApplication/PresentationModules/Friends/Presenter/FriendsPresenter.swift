@@ -13,11 +13,16 @@ class FriendsPresenter {
 	weak var view: FriendsViewInput?
 	var interactor: FriendsInteractorInput!
 	var router: FriendsRouterInput!
-	
+//	var output: FriendsModuleOutput?
 }
 
 // MARK: - FriendsViewOutput
 extension FriendsPresenter: FriendsViewOutput {
+	
+}
+
+// MARK: - ModuleInput
+extension FriendsPresenter: ModuleInput {
 	
 }
 

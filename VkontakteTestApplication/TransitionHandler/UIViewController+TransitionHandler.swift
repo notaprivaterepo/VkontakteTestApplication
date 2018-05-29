@@ -59,12 +59,15 @@ extension UIViewController: TransitionHandler {
 			
 			self?.performSegue(withIdentifier: segueIdentifier, sender: nil) { segue in
 				var destination = segue.destination
-				guard let moduleInput = destination.moduleInput as? T else {
-					fatalError("Cannot cast controller '\(String(describing: destination.self))' to expected type '\(type)'")
-				}
+				
 				if destination is UINavigationController {
 					destination = (segue.destination as? UINavigationController)?.topViewController ?? segue.destination
 				}
+				
+				guard let moduleInput = destination.moduleInput as? T else {
+					fatalError("Cannot cast controller's '\(String(describing: destination.moduleInput.self))' to expected type '\(type)'")
+				}
+				
 				setup(moduleInput)
 			}
 		}

@@ -9,5 +9,6 @@
 import Foundation
 
 protocol LoginInteractorOutput: class {
-	
+	func authorizationSuccessfullyCompleted()
+	func authorizationFailed(with error: Error)
 }

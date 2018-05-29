@@ -16,11 +16,11 @@ class LoginInteractor {
 // MARK: - LoginInteractorInput
 extension LoginInteractor: LoginInteractorInput {
 	func login() {
-		authorizationService.login { (isSuccess, error) in
+		authorizationService.login { [weak self] (isSuccess, error) in
 			if isSuccess {
-				print("Authorized")
+				self?.output?.authorizationSuccessfullyCompleted()
 			} else if let error = error {
-				print(error)
+				self?.output?.authorizationFailed(with: error)
 			}
 		}
 	}

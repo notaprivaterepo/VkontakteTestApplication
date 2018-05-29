@@ -9,5 +9,9 @@
 import Foundation
 
 class LoginRouter: LoginRouterInput {
+	var transitionHandler: TransitionHandler!
 	
+	func openFriends() {
+		transitionHandler.openModuleUsingSegue("PresentFriends", to: FriendsPresenter.self) { (_) in }
+	}
 }

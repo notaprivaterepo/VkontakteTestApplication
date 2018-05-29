@@ -21,12 +21,11 @@ extension AuthorizationService: AuthorizationServiceProtocol {
 		
 		self.authorizationFinishedHandler = authorizationFinishedHandler
 		
-		vkSdkClient.wakeUpSession { isSuccess in
+		vkSdkClient.wakeUpSession { [weak self] isSuccess in
 			if isSuccess {
 				authorizationFinishedHandler(true, nil)
 			} else {
-				// TODO: weak self?
-				self.vkSdkClient.authorize()
+				self?.vkSdkClient.authorize()
 			}
 		}
 	}

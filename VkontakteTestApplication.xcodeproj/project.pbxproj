@@ -50,6 +50,8 @@
 		C34B717820BC9DE8001D6D8D /* FriendsRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717720BC9DE8001D6D8D /* FriendsRouterInput.swift */; };
 		C34B717C20BC9E6A001D6D8D /* FriendsModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717B20BC9E6A001D6D8D /* FriendsModuleInitializer.swift */; };
 		C34B717E20BC9E76001D6D8D /* FriendsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */; };
+		C34B718220BDE021001D6D8D /* Friends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34B718120BDE021001D6D8D /* Friends.storyboard */; };
+		C34B718420BDFAC1001D6D8D /* FriendsModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B718320BDFAC1001D6D8D /* FriendsModuleOutput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +101,8 @@
 		C34B717720BC9DE8001D6D8D /* FriendsRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsRouterInput.swift; sourceTree = "<group>"; };
 		C34B717B20BC9E6A001D6D8D /* FriendsModuleInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleInitializer.swift; sourceTree = "<group>"; };
 		C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleConfigurator.swift; sourceTree = "<group>"; };
+		C34B718120BDE021001D6D8D /* Friends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friends.storyboard; sourceTree = "<group>"; };
+		C34B718320BDFAC1001D6D8D /* FriendsModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleOutput.swift; sourceTree = "<group>"; };
 		E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkontakteTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,6 +213,7 @@
 				C34B717420BC9DB1001D6D8D /* Router */,
 				C34B717920BC9E28001D6D8D /* ModuleInitializer */,
 				C34B717A20BC9E37001D6D8D /* ModuleConfigurator */,
+				C34B718120BDE021001D6D8D /* Friends.storyboard */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -343,6 +348,7 @@
 			isa = PBXGroup;
 			children = (
 				C34B716B20BC9C92001D6D8D /* FriendsPresenter.swift */,
+				C34B718320BDFAC1001D6D8D /* FriendsModuleOutput.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -452,6 +458,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3341D7720BA02A700D3ACA3 /* Login.storyboard in Resources */,
+				C34B718220BDE021001D6D8D /* Friends.storyboard in Resources */,
 				C3341D2A20B95EE100D3ACA3 /* LaunchScreen.storyboard in Resources */,
 				C3341D2720B95EE100D3ACA3 /* Assets.xcassets in Resources */,
 				C3341D2520B95ED800D3ACA3 /* Main.storyboard in Resources */,
@@ -506,6 +513,7 @@
 			files = (
 				C34B717120BC9D19001D6D8D /* FriendsInteractorInput.swift in Sources */,
 				C34B716720BC9C2D001D6D8D /* FriendsViewOutput.swift in Sources */,
+				C34B718420BDFAC1001D6D8D /* FriendsModuleOutput.swift in Sources */,
 				C3341D3C20B9662400D3ACA3 /* LoginViewOutput.swift in Sources */,
 				C3341D3E20B9662E00D3ACA3 /* LoginViewInput.swift in Sources */,
 				C3341D5B20B990C800D3ACA3 /* ModuleInput.swift in Sources */,

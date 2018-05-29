@@ -83,6 +83,7 @@
                     <connections>
                         <outlet property="loginTextField" destination="S6l-Bi-uyF" id="BwQ-cY-g7z"/>
                         <outlet property="passwordTextField" destination="Uca-yZ-Z8a" id="UIr-jO-ZOz"/>
+                        <segue destination="HbC-Qh-ibG" kind="presentation" identifier="PresentFriends" id="7v3-Ub-Dfa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tWI-4A-4wn" sceneMemberID="firstResponder"/>
@@ -93,6 +94,14 @@
                 </customObject>
             </objects>
             <point key="canvasLocation" x="-130.40000000000001" y="120.08995502248877"/>
+        </scene>
+        <!--FriendsNavigationController-->
+        <scene sceneID="lqf-k2-5ZW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Friends" referencedIdentifier="FriendsNavigationController" id="HbC-Qh-ibG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Vl-Dz-m3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="474" y="126"/>
         </scene>
     </scenes>
 </document>
