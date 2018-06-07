@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="EGw-gd-2r7" customClass="FriendTableViewCell" customModule="VkontakteTestApplication" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EGw-gd-2r7" id="9Fs-9I-PMr">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jF3-So-qwa">
+                        <rect key="frame" x="16" y="16" width="80" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sd3-V6-Q7E">
+                        <rect key="frame" x="16" y="45" width="79.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9YI-gE-zHL">
+                        <rect key="frame" x="279" y="10" width="80" height="79.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="9YI-gE-zHL" secondAttribute="height" multiplier="1:1" id="bZR-tJ-9jE"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9YI-gE-zHL" secondAttribute="trailing" constant="16" id="90O-cY-NiB"/>
+                    <constraint firstItem="sd3-V6-Q7E" firstAttribute="top" secondItem="jF3-So-qwa" secondAttribute="bottom" constant="8" id="ASQ-mL-Zrz"/>
+                    <constraint firstItem="sd3-V6-Q7E" firstAttribute="trailing" secondItem="jF3-So-qwa" secondAttribute="trailing" id="Hpm-6W-4yC"/>
+                    <constraint firstAttribute="bottom" secondItem="9YI-gE-zHL" secondAttribute="bottom" constant="10" id="KQa-Yb-MEa"/>
+                    <constraint firstItem="9YI-gE-zHL" firstAttribute="top" secondItem="9Fs-9I-PMr" secondAttribute="top" constant="10" id="Xvc-RP-aWx"/>
+                    <constraint firstItem="sd3-V6-Q7E" firstAttribute="leading" secondItem="jF3-So-qwa" secondAttribute="leading" id="cmo-VO-2W2"/>
+                    <constraint firstItem="jF3-So-qwa" firstAttribute="top" secondItem="9Fs-9I-PMr" secondAttribute="top" constant="16" id="fzR-OX-HIL"/>
+                    <constraint firstItem="jF3-So-qwa" firstAttribute="leading" secondItem="9Fs-9I-PMr" secondAttribute="leading" constant="16" id="znU-Y0-qTz"/>
+                    <constraint firstItem="9YI-gE-zHL" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jF3-So-qwa" secondAttribute="trailing" constant="4" id="zxw-py-XAQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatarImageView" destination="9YI-gE-zHL" id="FZu-9r-VJ9"/>
+                <outlet property="firstNameLabel" destination="jF3-So-qwa" id="iaG-Dp-7qG"/>
+                <outlet property="lastNameLabel" destination="sd3-V6-Q7E" id="Uim-yD-BpQ"/>
+            </connections>
+            <point key="canvasLocation" x="143.5" y="14"/>
+        </tableViewCell>
+    </objects>
+</document>

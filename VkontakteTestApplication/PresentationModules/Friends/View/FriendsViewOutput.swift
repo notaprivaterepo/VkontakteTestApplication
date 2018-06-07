@@ -9,5 +9,6 @@
 import Foundation
 
 protocol FriendsViewOutput {
-	
+	func viewIsReady()
+	func didSelectRow(with friendId: Int)
 }

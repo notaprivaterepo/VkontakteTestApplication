@@ -9,5 +9,6 @@
 import Foundation
 
 protocol FriendsInteractorOutput: class {
-	
+	func getFriendsListFailed(with error: Error)
+	func gotFriendsList(_ friends: [Friend])
 }

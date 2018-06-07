@@ -18,15 +18,27 @@ class FriendsPresenter {
 
 // MARK: - FriendsViewOutput
 extension FriendsPresenter: FriendsViewOutput {
+	func viewIsReady() {
+		interactor.getFriendsList()
+	}
 	
+	func didSelectRow(with friendId: Int) {
+		router.openPhotos(with: friendId)
+	}
 }
 
-// MARK: - ModuleInput
-extension FriendsPresenter: ModuleInput {
+// MARK: - FriendsModuleInput
+extension FriendsPresenter: FriendsModuleInput {
 	
 }
 
 // MARK: - FriendsInteractorOutput
 extension FriendsPresenter: FriendsInteractorOutput {
+	func getFriendsListFailed(with error: Error) {
+		
+	}
 	
+	func gotFriendsList(_ friends: [Friend]) {
+		view?.set(friends: friends)
+	}
 }

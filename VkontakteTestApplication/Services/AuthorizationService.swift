@@ -10,8 +10,7 @@ import Foundation
 import VK_ios_sdk
 
 class AuthorizationService: NSObject {
-	var vkSdkClient: VkSdkClientProtocol!
-	
+	private let permissions = ["friends"]
 	private var authorizationFinishedHandler: ((Bool, Error?) -> Void)?
 }
 
@@ -21,13 +20,13 @@ extension AuthorizationService: AuthorizationServiceProtocol {
 		
 		self.authorizationFinishedHandler = authorizationFinishedHandler
 		
-		vkSdkClient.wakeUpSession { [weak self] isSuccess in
-			if isSuccess {
+		VKSdk.wakeUpSession(permissions, complete: { [weak self] (state, _) in
+			if (state == VKAuthorizationState.authorized) {
 				authorizationFinishedHandler(true, nil)
 			} else {
-				self?.vkSdkClient.authorize()
+				VKSdk.authorize(self?.permissions)
 			}
-		}
+		})
 	}
 }
 

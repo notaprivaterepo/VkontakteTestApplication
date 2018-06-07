@@ -9,5 +9,5 @@
 import Foundation
 
 protocol FriendsViewInput: class {
-	
+	func set(friends: [Friend])
 }

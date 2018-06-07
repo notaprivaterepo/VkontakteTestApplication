@@ -1,17 +1,17 @@
 //
-//  LoginConfigurator.swift
+//  PhotosModuleConfigurator.swift
 //  VkontakteTestApplication
 //
-//  Created by John Dowland on 26.05.2018.
+//  Created by John Dowland on 04.06.2018.
 //  Copyright © 2018 Nikita Lezya. All rights reserved.
 //
 
 import Foundation
 
-class LoginConfigurator {
-	func configure(_ view: LoginViewController) {
-		let interactor = LoginInteractor()
-		let presenter = LoginPresenter()
+class PhotosConfigurator {
+	func configure(_ view: PhotosViewController) {
+		let interactor = PhotosInteractor()
+		let presenter = PhotosPresenter()
 		
 		// MARK: - View configuration
 		view.output = presenter
@@ -19,13 +19,12 @@ class LoginConfigurator {
 		// MARK: - Presenter configuration
 		presenter.interactor = interactor
 		presenter.view = view
-		let router = LoginRouter()
+		let router = PhotosRouter()
 		router.transitionHandler = view as TransitionHandler
 		presenter.router = router
 		
 		// MARK: - Interactor configuration
 		interactor.output = presenter
-		interactor.authorizationService = AuthorizationService()
 		
 	}
 }

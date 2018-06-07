@@ -52,6 +52,25 @@
 		C34B717E20BC9E76001D6D8D /* FriendsModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */; };
 		C34B718220BDE021001D6D8D /* Friends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34B718120BDE021001D6D8D /* Friends.storyboard */; };
 		C34B718420BDFAC1001D6D8D /* FriendsModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B718320BDFAC1001D6D8D /* FriendsModuleOutput.swift */; };
+		C34B718720BF312D001D6D8D /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B718620BF312C001D6D8D /* Friend.swift */; };
+		C34B718920BF3382001D6D8D /* UIImageView+DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B718820BF3382001D6D8D /* UIImageView+DownloadImage.swift */; };
+		C34B718C20BF522C001D6D8D /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B718B20BF522C001D6D8D /* FriendTableViewCell.swift */; };
+		C34B718E20C0128E001D6D8D /* FriendTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34B718D20C0128E001D6D8D /* FriendTableViewCell.xib */; };
+		C34B719620C5D9D4001D6D8D /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B719520C5D9D4001D6D8D /* PhotosViewController.swift */; };
+		C34B719820C5D9F3001D6D8D /* PhotosViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B719720C5D9F3001D6D8D /* PhotosViewInput.swift */; };
+		C34B719A20C5DA0A001D6D8D /* PhotosViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B719920C5DA0A001D6D8D /* PhotosViewOutput.swift */; };
+		C34B719C20C5DAB2001D6D8D /* PhotosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B719B20C5DAB2001D6D8D /* PhotosPresenter.swift */; };
+		C34B719E20C5DBEC001D6D8D /* PhotosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B719D20C5DBEC001D6D8D /* PhotosInteractor.swift */; };
+		C34B71A020C5DC0A001D6D8D /* PhotosInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B719F20C5DC0A001D6D8D /* PhotosInteractorInput.swift */; };
+		C34B71A220C5DC2F001D6D8D /* PhotosInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71A120C5DC2F001D6D8D /* PhotosInteractorOutput.swift */; };
+		C34B71A420C5DD19001D6D8D /* PhotosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71A320C5DD19001D6D8D /* PhotosRouter.swift */; };
+		C34B71A620C5DD30001D6D8D /* PhotosRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71A520C5DD30001D6D8D /* PhotosRouterInput.swift */; };
+		C34B71A820C5DD79001D6D8D /* PhotosModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71A720C5DD79001D6D8D /* PhotosModuleInitializer.swift */; };
+		C34B71AA20C5DD8E001D6D8D /* PhotosModuleConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71A920C5DD8E001D6D8D /* PhotosModuleConfigurator.swift */; };
+		C34B71AC20C5DF40001D6D8D /* Photos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34B71AB20C5DF40001D6D8D /* Photos.storyboard */; };
+		C34B71AE20C5E250001D6D8D /* FriendsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71AD20C5E250001D6D8D /* FriendsServiceProtocol.swift */; };
+		C34B71B020C5E25E001D6D8D /* FriendsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71AF20C5E25E001D6D8D /* FriendsService.swift */; };
+		C34B71B220C8A6FE001D6D8D /* FriendsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71B120C8A6FE001D6D8D /* FriendsModuleInput.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -103,6 +122,25 @@
 		C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleConfigurator.swift; sourceTree = "<group>"; };
 		C34B718120BDE021001D6D8D /* Friends.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Friends.storyboard; sourceTree = "<group>"; };
 		C34B718320BDFAC1001D6D8D /* FriendsModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleOutput.swift; sourceTree = "<group>"; };
+		C34B718620BF312C001D6D8D /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		C34B718820BF3382001D6D8D /* UIImageView+DownloadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DownloadImage.swift"; sourceTree = "<group>"; };
+		C34B718B20BF522C001D6D8D /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		C34B718D20C0128E001D6D8D /* FriendTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FriendTableViewCell.xib; sourceTree = "<group>"; };
+		C34B719520C5D9D4001D6D8D /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		C34B719720C5D9F3001D6D8D /* PhotosViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewInput.swift; sourceTree = "<group>"; };
+		C34B719920C5DA0A001D6D8D /* PhotosViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewOutput.swift; sourceTree = "<group>"; };
+		C34B719B20C5DAB2001D6D8D /* PhotosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosPresenter.swift; sourceTree = "<group>"; };
+		C34B719D20C5DBEC001D6D8D /* PhotosInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosInteractor.swift; sourceTree = "<group>"; };
+		C34B719F20C5DC0A001D6D8D /* PhotosInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosInteractorInput.swift; sourceTree = "<group>"; };
+		C34B71A120C5DC2F001D6D8D /* PhotosInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosInteractorOutput.swift; sourceTree = "<group>"; };
+		C34B71A320C5DD19001D6D8D /* PhotosRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRouter.swift; sourceTree = "<group>"; };
+		C34B71A520C5DD30001D6D8D /* PhotosRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRouterInput.swift; sourceTree = "<group>"; };
+		C34B71A720C5DD79001D6D8D /* PhotosModuleInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModuleInitializer.swift; sourceTree = "<group>"; };
+		C34B71A920C5DD8E001D6D8D /* PhotosModuleConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModuleConfigurator.swift; sourceTree = "<group>"; };
+		C34B71AB20C5DF40001D6D8D /* Photos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Photos.storyboard; sourceTree = "<group>"; };
+		C34B71AD20C5E250001D6D8D /* FriendsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsServiceProtocol.swift; sourceTree = "<group>"; };
+		C34B71AF20C5E25E001D6D8D /* FriendsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsService.swift; sourceTree = "<group>"; };
+		C34B71B120C8A6FE001D6D8D /* FriendsModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleInput.swift; sourceTree = "<group>"; };
 		E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkontakteTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,6 +185,7 @@
 		C3341D1E20B95ED700D3ACA3 /* VkontakteTestApplication */ = {
 			isa = PBXGroup;
 			children = (
+				C34B718520BF22A3001D6D8D /* Model */,
 				C3341D6A20B9AE5E00D3ACA3 /* Common */,
 				C3341D5420B98F9300D3ACA3 /* TransitionHandler */,
 				C3341D3320B9606500D3ACA3 /* Core */,
@@ -177,6 +216,8 @@
 			children = (
 				C3341D4020B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift */,
 				C3341D4220B96C4400D3ACA3 /* AuthorizationService.swift */,
+				C34B71AD20C5E250001D6D8D /* FriendsServiceProtocol.swift */,
+				C34B71AF20C5E25E001D6D8D /* FriendsService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -221,6 +262,13 @@
 		C3341D3620B961A400D3ACA3 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				C34B718F20C5D83A001D6D8D /* View */,
+				C34B719020C5D847001D6D8D /* Presenter */,
+				C34B719120C5D850001D6D8D /* Interactor */,
+				C34B719220C5D858001D6D8D /* Router */,
+				C34B719320C5D8B1001D6D8D /* ModuleInitializer */,
+				C34B719420C5D927001D6D8D /* ModuleConfigurator */,
+				C34B71AB20C5DF40001D6D8D /* Photos.storyboard */,
 			);
 			path = Photos;
 			sourceTree = "<group>";
@@ -314,6 +362,7 @@
 			isa = PBXGroup;
 			children = (
 				C3341D6B20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift */,
+				C34B718820BF3382001D6D8D /* UIImageView+DownloadImage.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -337,6 +386,7 @@
 		C34B716320BC9BAA001D6D8D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C34B718A20BF5212001D6D8D /* TableView */,
 				C34B716420BC9BD9001D6D8D /* FriendsViewController.swift */,
 				C34B716620BC9C2D001D6D8D /* FriendsViewOutput.swift */,
 				C34B716820BC9C5E001D6D8D /* FriendsViewInput.swift */,
@@ -349,6 +399,7 @@
 			children = (
 				C34B716B20BC9C92001D6D8D /* FriendsPresenter.swift */,
 				C34B718320BDFAC1001D6D8D /* FriendsModuleOutput.swift */,
+				C34B71B120C8A6FE001D6D8D /* FriendsModuleInput.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -384,6 +435,76 @@
 			isa = PBXGroup;
 			children = (
 				C34B717D20BC9E76001D6D8D /* FriendsModuleConfigurator.swift */,
+			);
+			path = ModuleConfigurator;
+			sourceTree = "<group>";
+		};
+		C34B718520BF22A3001D6D8D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C34B718620BF312C001D6D8D /* Friend.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C34B718A20BF5212001D6D8D /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				C34B718B20BF522C001D6D8D /* FriendTableViewCell.swift */,
+				C34B718D20C0128E001D6D8D /* FriendTableViewCell.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		C34B718F20C5D83A001D6D8D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C34B719520C5D9D4001D6D8D /* PhotosViewController.swift */,
+				C34B719720C5D9F3001D6D8D /* PhotosViewInput.swift */,
+				C34B719920C5DA0A001D6D8D /* PhotosViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C34B719020C5D847001D6D8D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				C34B719B20C5DAB2001D6D8D /* PhotosPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		C34B719120C5D850001D6D8D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				C34B719D20C5DBEC001D6D8D /* PhotosInteractor.swift */,
+				C34B719F20C5DC0A001D6D8D /* PhotosInteractorInput.swift */,
+				C34B71A120C5DC2F001D6D8D /* PhotosInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		C34B719220C5D858001D6D8D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				C34B71A320C5DD19001D6D8D /* PhotosRouter.swift */,
+				C34B71A520C5DD30001D6D8D /* PhotosRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C34B719320C5D8B1001D6D8D /* ModuleInitializer */ = {
+			isa = PBXGroup;
+			children = (
+				C34B71A720C5DD79001D6D8D /* PhotosModuleInitializer.swift */,
+			);
+			path = ModuleInitializer;
+			sourceTree = "<group>";
+		};
+		C34B719420C5D927001D6D8D /* ModuleConfigurator */ = {
+			isa = PBXGroup;
+			children = (
+				C34B71A920C5DD8E001D6D8D /* PhotosModuleConfigurator.swift */,
 			);
 			path = ModuleConfigurator;
 			sourceTree = "<group>";
@@ -457,7 +578,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C34B71AC20C5DF40001D6D8D /* Photos.storyboard in Resources */,
 				C3341D7720BA02A700D3ACA3 /* Login.storyboard in Resources */,
+				C34B718E20C0128E001D6D8D /* FriendTableViewCell.xib in Resources */,
 				C34B718220BDE021001D6D8D /* Friends.storyboard in Resources */,
 				C3341D2A20B95EE100D3ACA3 /* LaunchScreen.storyboard in Resources */,
 				C3341D2720B95EE100D3ACA3 /* Assets.xcassets in Resources */,
@@ -523,32 +646,49 @@
 				C34B716920BC9C5E001D6D8D /* FriendsViewInput.swift in Sources */,
 				C3341D6520B9944C00D3ACA3 /* TransitionPromise.swift in Sources */,
 				C3341D6F20B9EEC600D3ACA3 /* LoginConfigurator.swift in Sources */,
+				C34B71A220C5DC2F001D6D8D /* PhotosInteractorOutput.swift in Sources */,
+				C34B719820C5D9F3001D6D8D /* PhotosViewInput.swift in Sources */,
 				C3341D3820B9661000D3ACA3 /* LoginViewController.swift in Sources */,
 				C3341D3A20B9661B00D3ACA3 /* LoginPresenter.swift in Sources */,
 				C3341D2220B95ED700D3ACA3 /* ViewController.swift in Sources */,
 				C34B716C20BC9C92001D6D8D /* FriendsPresenter.swift in Sources */,
+				C34B719C20C5DAB2001D6D8D /* PhotosPresenter.swift in Sources */,
 				C3341D4120B96BC500D3ACA3 /* AuthorizationServiceProtocol.swift in Sources */,
 				C3341D6120B9935400D3ACA3 /* Module.swift in Sources */,
+				C34B719A20C5DA0A001D6D8D /* PhotosViewOutput.swift in Sources */,
+				C34B719620C5D9D4001D6D8D /* PhotosViewController.swift in Sources */,
 				C3341D5920B98FE700D3ACA3 /* TransitionHandler.swift in Sources */,
 				C3341D5F20B991D000D3ACA3 /* ViewOutputProvider.swift in Sources */,
+				C34B71AE20C5E250001D6D8D /* FriendsServiceProtocol.swift in Sources */,
+				C34B719E20C5DBEC001D6D8D /* PhotosInteractor.swift in Sources */,
 				C34B715E20BC7AC0001D6D8D /* VkSdkClientProtocol.swift in Sources */,
+				C34B71B220C8A6FE001D6D8D /* FriendsModuleInput.swift in Sources */,
 				C3341D5D20B9918400D3ACA3 /* ModuleOutput.swift in Sources */,
 				C3341D2020B95ED700D3ACA3 /* AppDelegate.swift in Sources */,
+				C34B71AA20C5DD8E001D6D8D /* PhotosModuleConfigurator.swift in Sources */,
 				C34B717E20BC9E76001D6D8D /* FriendsModuleConfigurator.swift in Sources */,
+				C34B71B020C5E25E001D6D8D /* FriendsService.swift in Sources */,
 				C3341D4920B97D2900D3ACA3 /* LoginInteractorInput.swift in Sources */,
 				C34B717820BC9DE8001D6D8D /* FriendsRouterInput.swift in Sources */,
 				C34B717620BC9DDF001D6D8D /* FriendsRouter.swift in Sources */,
+				C34B718C20BF522C001D6D8D /* FriendTableViewCell.swift in Sources */,
 				C3341D5620B98FB500D3ACA3 /* UIViewController+TransitionHandler.swift in Sources */,
+				C34B718720BF312D001D6D8D /* Friend.swift in Sources */,
 				C3341D4320B96C4400D3ACA3 /* AuthorizationService.swift in Sources */,
+				C34B71A620C5DD30001D6D8D /* PhotosRouterInput.swift in Sources */,
+				C34B71A420C5DD19001D6D8D /* PhotosRouter.swift in Sources */,
 				C34B716F20BC9CCE001D6D8D /* FriendsInteractor.swift in Sources */,
 				C3341D7220B9F68D00D3ACA3 /* LoginInteractorOutput.swift in Sources */,
 				C34B717C20BC9E6A001D6D8D /* FriendsModuleInitializer.swift in Sources */,
 				C3341D4C20B97D5C00D3ACA3 /* LoginRouterInput.swift in Sources */,
+				C34B71A820C5DD79001D6D8D /* PhotosModuleInitializer.swift in Sources */,
 				C3341D6920B9975C00D3ACA3 /* TransitionNavigationStyle.swift in Sources */,
 				C3341D6C20B9AE7C00D3ACA3 /* DispatchQueue+Once.swift in Sources */,
 				C3341D4620B97B9100D3ACA3 /* LoginInteractor.swift in Sources */,
 				C3341D7520B9FD5800D3ACA3 /* LoginModuleInitializer.swift in Sources */,
+				C34B718920BF3382001D6D8D /* UIImageView+DownloadImage.swift in Sources */,
 				C34B716020BC7AD6001D6D8D /* VkSdkClient.swift in Sources */,
+				C34B71A020C5DC0A001D6D8D /* PhotosInteractorInput.swift in Sources */,
 				C34B717320BC9D9A001D6D8D /* FriendsInteractorOutput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

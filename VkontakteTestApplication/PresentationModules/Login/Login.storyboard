@@ -34,7 +34,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="71"/>
                                 <state key="normal" title="В">
-                                    <color key="titleColor" red="0.0" green="0.50125858850000005" blue="0.83718670689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.34901960780000002" green="0.49019607840000001" blue="0.63921568630000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="login" destination="fX1-PQ-bHq" eventType="touchUpInside" id="k1M-Dh-Epu"/>
@@ -56,7 +56,7 @@
                                 <textInputTraits key="textInputTraits" returnKeyType="go" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.50125858850000005" blue="0.83718670689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.34901960784313724" green="0.49019607843137253" blue="0.63921568627450975" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2om-xH-ZjP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="L1H-3U-lft" secondAttribute="leading" constant="21" id="1l3-gv-n3q"/>
                             <constraint firstItem="hD6-em-2zG" firstAttribute="centerX" secondItem="u6f-ul-2mn" secondAttribute="centerX" id="7le-gt-JNe"/>
@@ -95,10 +95,10 @@
             </objects>
             <point key="canvasLocation" x="-130.40000000000001" y="120.08995502248877"/>
         </scene>
-        <!--FriendsNavigationController-->
+        <!--Friends-->
         <scene sceneID="lqf-k2-5ZW">
             <objects>
-                <viewControllerPlaceholder storyboardName="Friends" referencedIdentifier="FriendsNavigationController" id="HbC-Qh-ibG" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Friends" id="HbC-Qh-ibG" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Vl-Dz-m3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="474" y="126"/>

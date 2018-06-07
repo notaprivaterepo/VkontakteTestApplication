@@ -13,7 +13,7 @@
         <!--Friends View Controller-->
         <scene sceneID="UXn-MN-7Xx">
             <objects>
-                <viewController storyboardIdentifier="FriendsViewController" id="qb4-5U-fpw" customClass="FriendsViewController" customModule="VkontakteTestApplication" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FriendsViewController" automaticallyAdjustsScrollViewInsets="NO" id="qb4-5U-fpw" customClass="FriendsViewController" customModule="VkontakteTestApplication" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EZA-Zi-puk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,6 +21,10 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="syk-uf-jMN">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="qb4-5U-fpw" id="Ke7-Gk-HdR"/>
+                                    <outlet property="delegate" destination="qb4-5U-fpw" id="YV5-pG-ebH"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -32,7 +36,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ILp-3A-eV3"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FLF-Yj-kUl"/>
+                    <navigationItem key="navigationItem" title="Friends" id="FLF-Yj-kUl"/>
+                    <connections>
+                        <outlet property="tableView" destination="syk-uf-jMN" id="Q9j-sZ-paq"/>
+                        <segue destination="JmB-Sp-9Bh" kind="presentation" identifier="PresentPhotos" id="cgb-M5-0ig"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NoE-C1-WIm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <customObject id="ZaY-Ph-egm" customClass="FriendsModuleInitializer" customModule="VkontakteTestApplication" customModuleProvider="target">
@@ -43,10 +51,18 @@
             </objects>
             <point key="canvasLocation" x="884" y="127.28635682158921"/>
         </scene>
+        <!--Photos-->
+        <scene sceneID="NsT-nP-vfB">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Photos" id="JmB-Sp-9Bh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMd-Bc-RcY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1593" y="127"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="OVD-uI-wT6">
             <objects>
-                <navigationController storyboardIdentifier="FriendsNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="U6K-MK-Yi0" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="U6K-MK-Yi0" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lay-MR-2F7">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

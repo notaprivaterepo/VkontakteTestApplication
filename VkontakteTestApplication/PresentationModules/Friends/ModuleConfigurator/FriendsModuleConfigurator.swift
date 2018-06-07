@@ -19,10 +19,12 @@ class FriendsConfigurator {
 		// MARK: - Presenter configuration
 		presenter.interactor = interactor
 		presenter.view = view
-		presenter.router = FriendsRouter()
+		let router = FriendsRouter()
+		router.transitionHandler = view as TransitionHandler
+		presenter.router = router
 		
 		// MARK: - Interactor configuration
 		interactor.output = presenter
-		
+		interactor.friendsService = FriendsService()
 	}
 }

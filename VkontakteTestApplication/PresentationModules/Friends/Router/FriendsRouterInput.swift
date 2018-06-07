@@ -9,5 +9,5 @@
 import Foundation
 
 protocol FriendsRouterInput {
-	
+	func openPhotos(with friendId: Int)
 }
