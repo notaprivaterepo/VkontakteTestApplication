@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import VK_ios_sdk
 
 class FriendsViewController: UIViewController {
 	
@@ -33,7 +32,7 @@ extension FriendsViewController: UITableViewDataSource {
 	}
 	
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCell(withIdentifier: "FriendTableViewCell", for: indexPath) as! FriendTableViewCell
+		guard let cell = tableView.dequeueReusableCell(withIdentifier: "FriendTableViewCell", for: indexPath) as? FriendTableViewCell else { return UITableViewCell() }
 		cell.configure(with: friends[indexPath.row])
 		return cell
 	}

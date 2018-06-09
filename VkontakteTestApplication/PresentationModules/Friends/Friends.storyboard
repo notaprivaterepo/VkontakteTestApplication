@@ -39,7 +39,7 @@
                     <navigationItem key="navigationItem" title="Friends" id="FLF-Yj-kUl"/>
                     <connections>
                         <outlet property="tableView" destination="syk-uf-jMN" id="Q9j-sZ-paq"/>
-                        <segue destination="JmB-Sp-9Bh" kind="presentation" identifier="PresentPhotos" id="cgb-M5-0ig"/>
+                        <segue destination="JmB-Sp-9Bh" kind="show" identifier="ShowPhotos" id="W1Z-1a-KNo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NoE-C1-WIm" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol PhotosViewInput: class {
-	
+	func set(photos: [Photo])
 }

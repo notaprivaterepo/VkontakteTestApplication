@@ -9,5 +9,5 @@
 import Foundation
 
 protocol PhotosInteractorInput {
-	
+	func getPhotos(for userId: Int)
 }

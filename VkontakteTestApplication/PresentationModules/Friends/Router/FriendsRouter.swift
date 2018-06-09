@@ -12,8 +12,8 @@ class FriendsRouter: FriendsRouterInput {
 	var transitionHandler: TransitionHandler!
 	
 	func openPhotos(with friendId: Int) {
-		transitionHandler.openModuleUsingSegue("PresentPhotos", to: PhotosPresenter.self) { (moduleInput) in
-			moduleInput.setModuleOutput(<#T##moduleOutput: ModuleOutput##ModuleOutput#>)
+		transitionHandler.openModuleUsingSegue("ShowPhotos", to: PhotosModuleInput.self) { (moduleInput) in
+			moduleInput.set(currentFriendId: friendId)
 		}
 	}
 }

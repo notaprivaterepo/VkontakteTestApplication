@@ -37,8 +37,6 @@
 		C3341D7220B9F68D00D3ACA3 /* LoginInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D7120B9F68D00D3ACA3 /* LoginInteractorOutput.swift */; };
 		C3341D7520B9FD5800D3ACA3 /* LoginModuleInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3341D7420B9FD5800D3ACA3 /* LoginModuleInitializer.swift */; };
 		C3341D7720BA02A700D3ACA3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3341D7620BA02A700D3ACA3 /* Login.storyboard */; };
-		C34B715E20BC7AC0001D6D8D /* VkSdkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */; };
-		C34B716020BC7AD6001D6D8D /* VkSdkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */; };
 		C34B716520BC9BD9001D6D8D /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716420BC9BD9001D6D8D /* FriendsViewController.swift */; };
 		C34B716720BC9C2D001D6D8D /* FriendsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716620BC9C2D001D6D8D /* FriendsViewOutput.swift */; };
 		C34B716920BC9C5E001D6D8D /* FriendsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B716820BC9C5E001D6D8D /* FriendsViewInput.swift */; };
@@ -71,6 +69,12 @@
 		C34B71AE20C5E250001D6D8D /* FriendsServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71AD20C5E250001D6D8D /* FriendsServiceProtocol.swift */; };
 		C34B71B020C5E25E001D6D8D /* FriendsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71AF20C5E25E001D6D8D /* FriendsService.swift */; };
 		C34B71B220C8A6FE001D6D8D /* FriendsModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71B120C8A6FE001D6D8D /* FriendsModuleInput.swift */; };
+		C34B71B420C94421001D6D8D /* PhotosModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71B320C94421001D6D8D /* PhotosModuleInput.swift */; };
+		C34B71B620C9DF35001D6D8D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71B520C9DF35001D6D8D /* Photo.swift */; };
+		C34B71B820CAC99D001D6D8D /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71B720CAC99D001D6D8D /* PhotoService.swift */; };
+		C34B71BA20CACEBC001D6D8D /* PhotoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71B920CACEBC001D6D8D /* PhotoServiceProtocol.swift */; };
+		C34B71BE20CB1228001D6D8D /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71BC20CB1228001D6D8D /* PhotoCollectionViewCell.swift */; };
+		C34B71BF20CB1228001D6D8D /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34B71BD20CB1228001D6D8D /* PhotoCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,8 +111,6 @@
 		C3341D7120B9F68D00D3ACA3 /* LoginInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractorOutput.swift; sourceTree = "<group>"; };
 		C3341D7420B9FD5800D3ACA3 /* LoginModuleInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleInitializer.swift; sourceTree = "<group>"; };
 		C3341D7620BA02A700D3ACA3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSdkClientProtocol.swift; sourceTree = "<group>"; };
-		C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VkSdkClient.swift; sourceTree = "<group>"; };
 		C34B716420BC9BD9001D6D8D /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		C34B716620BC9C2D001D6D8D /* FriendsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewOutput.swift; sourceTree = "<group>"; };
 		C34B716820BC9C5E001D6D8D /* FriendsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewInput.swift; sourceTree = "<group>"; };
@@ -141,6 +143,12 @@
 		C34B71AD20C5E250001D6D8D /* FriendsServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsServiceProtocol.swift; sourceTree = "<group>"; };
 		C34B71AF20C5E25E001D6D8D /* FriendsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsService.swift; sourceTree = "<group>"; };
 		C34B71B120C8A6FE001D6D8D /* FriendsModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModuleInput.swift; sourceTree = "<group>"; };
+		C34B71B320C94421001D6D8D /* PhotosModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModuleInput.swift; sourceTree = "<group>"; };
+		C34B71B520C9DF35001D6D8D /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		C34B71B720CAC99D001D6D8D /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
+		C34B71B920CACEBC001D6D8D /* PhotoServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoServiceProtocol.swift; sourceTree = "<group>"; };
+		C34B71BC20CB1228001D6D8D /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C34B71BD20CB1228001D6D8D /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 		E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkontakteTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +226,8 @@
 				C3341D4220B96C4400D3ACA3 /* AuthorizationService.swift */,
 				C34B71AD20C5E250001D6D8D /* FriendsServiceProtocol.swift */,
 				C34B71AF20C5E25E001D6D8D /* FriendsService.swift */,
+				C34B71B720CAC99D001D6D8D /* PhotoService.swift */,
+				C34B71B920CACEBC001D6D8D /* PhotoServiceProtocol.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -225,8 +235,6 @@
 		C3341D3320B9606500D3ACA3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C34B715D20BC7AC0001D6D8D /* VkSdkClientProtocol.swift */,
-				C34B715F20BC7AD6001D6D8D /* VkSdkClient.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -443,6 +451,7 @@
 			isa = PBXGroup;
 			children = (
 				C34B718620BF312C001D6D8D /* Friend.swift */,
+				C34B71B520C9DF35001D6D8D /* Photo.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -459,6 +468,7 @@
 		C34B718F20C5D83A001D6D8D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C34B71BB20CB108E001D6D8D /* CollectionView */,
 				C34B719520C5D9D4001D6D8D /* PhotosViewController.swift */,
 				C34B719720C5D9F3001D6D8D /* PhotosViewInput.swift */,
 				C34B719920C5DA0A001D6D8D /* PhotosViewOutput.swift */,
@@ -470,6 +480,7 @@
 			isa = PBXGroup;
 			children = (
 				C34B719B20C5DAB2001D6D8D /* PhotosPresenter.swift */,
+				C34B71B320C94421001D6D8D /* PhotosModuleInput.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -507,6 +518,15 @@
 				C34B71A920C5DD8E001D6D8D /* PhotosModuleConfigurator.swift */,
 			);
 			path = ModuleConfigurator;
+			sourceTree = "<group>";
+		};
+		C34B71BB20CB108E001D6D8D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				C34B71BC20CB1228001D6D8D /* PhotoCollectionViewCell.swift */,
+				C34B71BD20CB1228001D6D8D /* PhotoCollectionViewCell.xib */,
+			);
+			path = CollectionView;
 			sourceTree = "<group>";
 		};
 		FDC0A6EBC359C45E81A3BD18 /* Pods */ = {
@@ -583,6 +603,7 @@
 				C34B718E20C0128E001D6D8D /* FriendTableViewCell.xib in Resources */,
 				C34B718220BDE021001D6D8D /* Friends.storyboard in Resources */,
 				C3341D2A20B95EE100D3ACA3 /* LaunchScreen.storyboard in Resources */,
+				C34B71BF20CB1228001D6D8D /* PhotoCollectionViewCell.xib in Resources */,
 				C3341D2720B95EE100D3ACA3 /* Assets.xcassets in Resources */,
 				C3341D2520B95ED800D3ACA3 /* Main.storyboard in Resources */,
 			);
@@ -636,6 +657,7 @@
 			files = (
 				C34B717120BC9D19001D6D8D /* FriendsInteractorInput.swift in Sources */,
 				C34B716720BC9C2D001D6D8D /* FriendsViewOutput.swift in Sources */,
+				C34B71BA20CACEBC001D6D8D /* PhotoServiceProtocol.swift in Sources */,
 				C34B718420BDFAC1001D6D8D /* FriendsModuleOutput.swift in Sources */,
 				C3341D3C20B9662400D3ACA3 /* LoginViewOutput.swift in Sources */,
 				C3341D3E20B9662E00D3ACA3 /* LoginViewInput.swift in Sources */,
@@ -661,11 +683,13 @@
 				C3341D5F20B991D000D3ACA3 /* ViewOutputProvider.swift in Sources */,
 				C34B71AE20C5E250001D6D8D /* FriendsServiceProtocol.swift in Sources */,
 				C34B719E20C5DBEC001D6D8D /* PhotosInteractor.swift in Sources */,
-				C34B715E20BC7AC0001D6D8D /* VkSdkClientProtocol.swift in Sources */,
+				C34B71B620C9DF35001D6D8D /* Photo.swift in Sources */,
 				C34B71B220C8A6FE001D6D8D /* FriendsModuleInput.swift in Sources */,
 				C3341D5D20B9918400D3ACA3 /* ModuleOutput.swift in Sources */,
 				C3341D2020B95ED700D3ACA3 /* AppDelegate.swift in Sources */,
+				C34B71B420C94421001D6D8D /* PhotosModuleInput.swift in Sources */,
 				C34B71AA20C5DD8E001D6D8D /* PhotosModuleConfigurator.swift in Sources */,
+				C34B71BE20CB1228001D6D8D /* PhotoCollectionViewCell.swift in Sources */,
 				C34B717E20BC9E76001D6D8D /* FriendsModuleConfigurator.swift in Sources */,
 				C34B71B020C5E25E001D6D8D /* FriendsService.swift in Sources */,
 				C3341D4920B97D2900D3ACA3 /* LoginInteractorInput.swift in Sources */,
@@ -676,6 +700,7 @@
 				C34B718720BF312D001D6D8D /* Friend.swift in Sources */,
 				C3341D4320B96C4400D3ACA3 /* AuthorizationService.swift in Sources */,
 				C34B71A620C5DD30001D6D8D /* PhotosRouterInput.swift in Sources */,
+				C34B71B820CAC99D001D6D8D /* PhotoService.swift in Sources */,
 				C34B71A420C5DD19001D6D8D /* PhotosRouter.swift in Sources */,
 				C34B716F20BC9CCE001D6D8D /* FriendsInteractor.swift in Sources */,
 				C3341D7220B9F68D00D3ACA3 /* LoginInteractorOutput.swift in Sources */,
@@ -687,7 +712,6 @@
 				C3341D4620B97B9100D3ACA3 /* LoginInteractor.swift in Sources */,
 				C3341D7520B9FD5800D3ACA3 /* LoginModuleInitializer.swift in Sources */,
 				C34B718920BF3382001D6D8D /* UIImageView+DownloadImage.swift in Sources */,
-				C34B716020BC7AD6001D6D8D /* VkSdkClient.swift in Sources */,
 				C34B71A020C5DC0A001D6D8D /* PhotosInteractorInput.swift in Sources */,
 				C34B717320BC9D9A001D6D8D /* FriendsInteractorOutput.swift in Sources */,
 			);

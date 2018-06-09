@@ -18,8 +18,8 @@ class FriendTableViewCell: UITableViewCell {
 		firstNameLabel.text = friend.firstName
 		lastNameLabel.text = friend.lastName
 		
-		guard let urlString = friend.avatarUrlString, let url = URL(string: urlString) else { return }
-		
-		avatarImageView.setImage(with: url)
+		if let urlString = friend.avatarUrlString, let url = URL(string: urlString) {
+			avatarImageView.setImage(with: url)
+		}
 	}
 }

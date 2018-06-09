@@ -25,6 +25,7 @@ class PhotosConfigurator {
 		
 		// MARK: - Interactor configuration
 		interactor.output = presenter
+		interactor.photoService = PhotoService()
 		
 	}
 }

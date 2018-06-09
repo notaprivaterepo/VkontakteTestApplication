@@ -10,7 +10,7 @@ import Foundation
 import VK_ios_sdk
 
 class AuthorizationService: NSObject {
-	private let permissions = ["friends"]
+	private let permissions = ["friends", "photos"]
 	private var authorizationFinishedHandler: ((Bool, Error?) -> Void)?
 }
 

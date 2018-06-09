@@ -9,5 +9,6 @@
 import Foundation
 
 protocol PhotosInteractorOutput {
-	
+	func getPhotosFailed(with error: Error)
+	func gotPhotos(_ photos: [Photo])
 }

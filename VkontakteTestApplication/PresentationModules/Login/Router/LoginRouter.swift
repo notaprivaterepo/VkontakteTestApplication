@@ -12,6 +12,6 @@ class LoginRouter: LoginRouterInput {
 	var transitionHandler: TransitionHandler!
 	
 	func openFriends() {
-		transitionHandler.openModuleUsingSegue("PresentFriends", to: FriendsPresenter.self) { (_) in }
+		transitionHandler.openModuleUsingSegue("PresentFriends", to: FriendsModuleInput.self) { (_) in }
 	}
 }
