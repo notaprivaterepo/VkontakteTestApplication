@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="VK Test Application" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2om-xH-ZjP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VK Test Application" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2om-xH-ZjP">
                                 <rect key="frame" x="48" y="180" width="278" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,6 +64,7 @@
                             <constraint firstItem="hD6-em-2zG" firstAttribute="centerY" secondItem="u6f-ul-2mn" secondAttribute="centerY" id="G4y-VG-MFr"/>
                             <constraint firstItem="S6l-Bi-uyF" firstAttribute="top" secondItem="2om-xH-ZjP" secondAttribute="bottom" constant="53" id="Hqm-zf-yVN"/>
                             <constraint firstItem="2om-xH-ZjP" firstAttribute="centerX" secondItem="u6f-ul-2mn" secondAttribute="centerX" id="Oyp-LW-ZHD"/>
+                            <constraint firstItem="hD6-em-2zG" firstAttribute="top" secondItem="2om-xH-ZjP" secondAttribute="bottom" constant="67" id="PVq-HR-hIO"/>
                             <constraint firstItem="Uca-yZ-Z8a" firstAttribute="height" secondItem="S6l-Bi-uyF" secondAttribute="height" id="ZuX-rN-fuz"/>
                             <constraint firstItem="S6l-Bi-uyF" firstAttribute="centerX" secondItem="u6f-ul-2mn" secondAttribute="centerX" id="hph-bI-Ytc"/>
                             <constraint firstItem="Uca-yZ-Z8a" firstAttribute="top" secondItem="S6l-Bi-uyF" secondAttribute="bottom" constant="16" id="k5d-ht-JE2"/>

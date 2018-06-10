@@ -8,12 +8,21 @@
 
 import UIKit
 
+private var cacheManager = CacheManager()
+
 extension UIImageView {
 	func setImage(with url: URL) {
-		URLSession.shared.dataTask(with: url) { data, _, _ in
-			DispatchQueue.main.async {
-				if let data = data {
-					self.image = UIImage(data: data)
+		
+		if let image = cacheManager.image(forKey: url.absoluteString) {
+			self.image = image
+			return
+		}
+			
+		URLSession.shared.dataTask(with: url) { [weak self] data, _, _ in
+			if let data = data, let image = UIImage(data: data)  {
+				cacheManager.setImage(image, forKey: url.absoluteString)
+				DispatchQueue.main.async {
+					self?.image = image
 				}
 			}
 			}.resume()

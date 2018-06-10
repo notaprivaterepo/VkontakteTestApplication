@@ -14,6 +14,11 @@ class FriendTableViewCell: UITableViewCell {
 	@IBOutlet weak var lastNameLabel: UILabel!
 	@IBOutlet weak var avatarImageView: UIImageView!
 	
+	override func prepareForReuse() {
+		super.prepareForReuse()
+		avatarImageView.image = nil
+	}
+	
 	func configure(with friend: Friend) {
 		firstNameLabel.text = friend.firstName
 		lastNameLabel.text = friend.lastName

@@ -40,10 +40,10 @@ extension AuthorizationService: VKSdkDelegate {
 	}
 	
 	func vkSdkUserAuthorizationFailed() {
-		//
+		// not implemented
 	}
 	
 	func vkSdkTokenHasExpired(_ expiredToken: VKAccessToken!) {
-		//
+		// not implemented
 	}
 }

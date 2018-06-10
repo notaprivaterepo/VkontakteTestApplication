@@ -75,6 +75,7 @@
 		C34B71BA20CACEBC001D6D8D /* PhotoServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71B920CACEBC001D6D8D /* PhotoServiceProtocol.swift */; };
 		C34B71BE20CB1228001D6D8D /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71BC20CB1228001D6D8D /* PhotoCollectionViewCell.swift */; };
 		C34B71BF20CB1228001D6D8D /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C34B71BD20CB1228001D6D8D /* PhotoCollectionViewCell.xib */; };
+		C34B71C120CD8870001D6D8D /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C34B71C020CD8870001D6D8D /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		C34B71B920CACEBC001D6D8D /* PhotoServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoServiceProtocol.swift; sourceTree = "<group>"; };
 		C34B71BC20CB1228001D6D8D /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		C34B71BD20CB1228001D6D8D /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		C34B71C020CD8870001D6D8D /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		E985580ED9347CC187B4D022 /* Pods-VkontakteTestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VkontakteTestApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-VkontakteTestApplication/Pods-VkontakteTestApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -235,6 +237,7 @@
 		C3341D3320B9606500D3ACA3 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C34B71C020CD8870001D6D8D /* CacheManager.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -671,6 +674,7 @@
 				C34B71A220C5DC2F001D6D8D /* PhotosInteractorOutput.swift in Sources */,
 				C34B719820C5D9F3001D6D8D /* PhotosViewInput.swift in Sources */,
 				C3341D3820B9661000D3ACA3 /* LoginViewController.swift in Sources */,
+				C34B71C120CD8870001D6D8D /* CacheManager.swift in Sources */,
 				C3341D3A20B9661B00D3ACA3 /* LoginPresenter.swift in Sources */,
 				C3341D2220B95ED700D3ACA3 /* ViewController.swift in Sources */,
 				C34B716C20BC9C92001D6D8D /* FriendsPresenter.swift in Sources */,
